@@ -12,7 +12,8 @@ Adjusted Close prices used to account for corporate actions
 
 Time span: multiple years of daily data
 
-⚙️ Methodology
+
+Methodology
 
 Data Preprocessing
 
@@ -46,7 +47,8 @@ Compared GARCH and LSTM models using RMSE and MAE
 
 Visualized predicted vs actual volatility
 
-🧠 Key Insights
+
+Key Insights
 
 GARCH effectively captures volatility clustering and persistence
 
@@ -56,7 +58,8 @@ LSTM achieved lower forecasting error, while GARCH provided strong interpretabil
 
 Hybrid modeling improves robustness of volatility forecasts
 
-🛠️ Tools & Technologies
+
+Tools & Technologies
 
 Python, NumPy, Pandas
 
