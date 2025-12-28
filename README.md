@@ -1,7 +1,6 @@
 Project Overview
 
 This project focuses on forecasting stock market volatility, a key measure of financial risk, using a hybrid approach that combines statistical time series modeling and deep learning. Instead of predicting stock prices, the project models volatility, which is more stable and meaningful for risk management and decision-making.
-
 The study compares the performance of a traditional GARCH(1,1) model with a Long Short-Term Memory (LSTM) neural network to capture both linear and non-linear temporal patterns in financial time series data.
 
 Dataset
