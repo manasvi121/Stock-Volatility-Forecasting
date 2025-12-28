@@ -8,6 +8,17 @@ Dataset
 Historical daily stock price data sourced from Yahoo Finance
 Adjusted Close prices used to account for corporate actions
 Time span: multiple years of daily data
+The "yahoo_finance_dataset(2018-2023)" dataset is a financial dataset containing daily stock market data for multiple assets such as equities, ETFs, and indexes. It spans from April 1, 2018 to March 31, 2023, and contains 1257 rows and 7 columns. The data was sourced from Yahoo Finance, and the purpose of the dataset is to provide researchers, analysts, and investors with a comprehensive dataset that they can use to analyze stock market trends, identify patterns, and develop investment strategies.
+The dataset can be used for various tasks, including stock price prediction, trend analysis, portfolio optimization, and risk management. The dataset is provided in XLSX format, which makes it easy to import into various data analysis tools, including Python, R, and Excel.
+
+The dataset includes the following columns:
+
+Date: The date on which the stock market data was recorded.
+Open: The opening price of the asset on the given date.
+High: The highest price of the asset on the given date.
+Low: The lowest price of the asset on the given date.
+Close: The closing price of the asset on the given date. Note that this price does not take into account any after-hours trading that may have occurred after the market officially closed. Adj Close*: The adjusted closing price of the asset on the given date. This price takes into account any dividends, stock splits, or other corporate actions that may have occurred, which can affect the stock price.
+Volume: The total number of shares of the asset that were traded on the given date.
 
 Methodology
 
